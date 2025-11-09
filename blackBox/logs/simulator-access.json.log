@@ -1,0 +1,7 @@
+{"@timestamp":"2025-11-09T17:18:25.761414564Z","app":"simulator","type":"http_access","message":"http_access","method":"POST","path":"/switch/1","status":200,"duration_ms":29,"client":"/172.19.0.1:34520"}
+{"@timestamp":"2025-11-09T17:18:38.161968117Z","app":"simulator","type":"http_access","message":"http_access","method":"GET","path":"/site-config","status":200,"duration_ms":2,"client":"/172.19.0.1:54062"}
+{"@timestamp":"2025-11-09T17:18:49.064258403Z","app":"simulator","type":"http_access","message":"http_access","method":"POST","path":"/switch/1","status":200,"duration_ms":1,"client":"/172.19.0.1:48684"}
+{"@timestamp":"2025-11-09T17:19:07.99085541Z","app":"simulator","type":"http_access","message":"http_access","method":"POST","path":"/switch/3","status":200,"duration_ms":0,"client":"/172.19.0.1:40940"}
+{"@timestamp":"2025-11-09T20:38:05.744933814Z","app":"simulator","type":"http_access","message":"http_access","method":"POST","path":"/switch/1","status":200,"duration_ms":36,"client":"/172.19.0.1:44460"}
+{"@timestamp":"2025-11-09T20:38:30.488887901Z","app":"simulator","type":"http_access","message":"http_access","method":"GET","path":"/switch/1","status":200,"duration_ms":1,"client":"/172.19.0.1:42036"}
+{"@timestamp":"2025-11-09T20:38:43.129330099Z","app":"simulator","type":"http_access","message":"http_access","method":"POST","path":"/switch/1","status":200,"duration_ms":0,"client":"/172.19.0.1:45730"}
