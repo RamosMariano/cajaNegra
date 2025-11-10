@@ -28,13 +28,14 @@ Opción 3 :
 
 1 - DESCARGAR ESTE REPOSITORIO
 
-2 - AGREGAR TU CONTENEDOR A LA CARPETA "BLACKBOX"
+2 - AGREGAR TU CONTENEDOR A LA CARPETA "blackBox"
 
 3 - AGREGAR EL SERVICIO DE TU CONTENEDOR DENTRO DEL DOCKER COMPOSE
 
 ### Comandos de ejecución
 ```bash
-# - Construir el simulador
+# Dentro de la carpeta "blackBox" - Construir el simulador
 docker compose build --no-cache simulator
 
+# Dentro de la carpeta "blackBox"
 docker compose up -d
