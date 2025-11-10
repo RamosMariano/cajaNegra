@@ -3,7 +3,7 @@ info:
   title: Sensores IoT Este
   description: >
     API HTTP para obtener la configuración del sitio y controlar los switches de calefacción.
-  version: 1.0.0
+  version: 1.1.0
 servers:
   - url: http://localhost:8080
     description: Servidor Local
@@ -60,24 +60,31 @@ paths:
     post:
       summary: Cambiar el estado del switch
       description: |
-        Permite encender o apagar el switch enviando texto plano.
+        Permite encender o apagar el switch enviando JSON con el campo `state`.
 
         **Ejemplos curl:**
         ```bash
         # Encender el switch
-        curl -X POST http://localhost:8080/switch/1 -H "Content-Type: text/plain" -d "on"
+        curl -X POST http://localhost:8080/switch/1 \
+          -H "Content-Type: application/json" \
+          -d '{"state": true}'
 
         # Apagar el switch
-        curl -X POST http://localhost:8080/switch/1 -H "Content-Type: text/plain" -d "off"
+        curl -X POST http://localhost:8080/switch/1 \
+          -H "Content-Type: application/json" \
+          -d '{"state": false}'
         ```
       requestBody:
         required: true
         content:
-          text/plain:
+          application/json:
             schema:
-              type: string
-              enum: [on, off]
-              example: on
+              type: object
+              properties:
+                state:
+                  type: boolean
+                  description: Estado deseado del switch (true = encendido, false = apagado)
+                  example: true
       responses:
         '200':
           description: Comando ejecutado correctamente
