@@ -10,7 +10,7 @@
         "UA": 80.0,
         "name": "office1",
         "expectedTemp": "22",
-        "energy": "2 kWh",
+        "energy": "20 kWh",
         "switch": "http://localhost:8080/switch/1",
         "sensor": "sim/ht"
       },
@@ -32,7 +32,7 @@
         "UA": 80.0,
         "name": "office2",
         "expectedTemp": "21",
-        "energy": "2 kWh",
+        "energy": "20 kWh",
         "switch": "http://localhost:8080/switch/2",
         "sensor": "sim/ht"
       },
@@ -54,7 +54,7 @@
         "UA": 80.0,
         "name": "office3",
         "expectedTemp": "21",
-        "energy": "9 kWh",
+        "energy": "90 kWh",
         "switch": "http://localhost:8080/switch/3",
         "sensor": "sim/ht"
       },
@@ -76,7 +76,7 @@
         "UA": 80.0,
         "name": "office4",
         "expectedTemp": "23",
-        "energy": "2 kWh",
+        "energy": "20 kWh",
         "switch": "http://localhost:8080/switch/4",
         "sensor": "sim/ht"
       },
@@ -98,7 +98,7 @@
         "UA": 80.0,
         "name": "office5",
         "expectedTemp": "23",
-        "energy": "2 kWh",
+        "energy": "20 kWh",
         "switch": "http://localhost:8080/switch/5",
         "sensor": "sim/ht"
       },
@@ -116,7 +116,7 @@
     "escenario": 1,
     "warp": 180.0,
     "site": "oficinaA",
-    "maxEnergy": "10 kWh",
+    "maxEnergy": "100 kWh",
     "timeSlot": { "contractType": "std", "refreshPeriod": "10000 ms" }
   }
 }
