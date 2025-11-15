@@ -10,7 +10,7 @@
         "UA": 80.0,
         "name": "office1",
         "expectedTemp": "22",
-        "energy": "4 kWh",
+        "energy": "2 kWh",
         "switch": "http://localhost:8080/switch/1",
         "sensor": "sim/ht"
       },
@@ -32,7 +32,7 @@
         "UA": 80.0,
         "name": "office2",
         "expectedTemp": "21",
-        "energy": "4 kWh",
+        "energy": "2 kWh",
         "switch": "http://localhost:8080/switch/2",
         "sensor": "sim/ht"
       },
@@ -54,25 +54,25 @@
         "UA": 80.0,
         "name": "office3",
         "expectedTemp": "21",
-        "energy": "4 kWh",
+        "energy": "2 kWh",
         "switch": "http://localhost:8080/switch/3",
         "sensor": "sim/ht"
       },
       "calefactor": {
         "type": "loza hidraulica",
-        "p_electrica": 3000,
-        "state": true,
+        "p_electrica": 1000,
+        "state": false,
         "p_entregada": 1500
       },
       "modeloTermico": { "intervaloSegundos": 1 }
     }
   ],
   "simulacion": {
-    "duracionSegundos": 10000,
-    "escenario": 2,
+    "duracionSegundos": 5000,
+    "escenario": 3,
     "warp": 100.0,
     "site": "oficinaA",
-    "maxEnergy": "4 kWh",
+    "maxEnergy": "14 kWh",
     "timeSlot": { "contractType": "std", "refreshPeriod": "10000 ms" }
   }
 }
