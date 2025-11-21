@@ -442,9 +442,9 @@
     }
   ],
   "simulacion": {
-    "duracionSegundos": 30000,
+    "duracionSegundos": 5000,
     "escenario": 1,
-    "warp": 100.0,
+    "warp": 40.0,
     "site": "oficinaA",
     "maxEnergy": "100 kWh",
     "timeSlot": { "contractType": "std", "refreshPeriod": "10000 ms" }
